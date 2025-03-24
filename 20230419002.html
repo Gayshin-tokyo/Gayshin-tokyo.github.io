@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Koshin's Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body class="font-Poppins bg-body text-white">
+    <!-- ナビゲーションバー -->
+    <header class="py-6">
+        <div class="container mx-auto flex items-start px-2 md:px-14 lg:px-24 w-full cursor-pointer">
+            <a href="./index.html" class="text-3xl font-bold">Koshin's Blog</a>
+        </div>
+    </header>
+
+    <!-- 記事本文 -->
+    <div id="blog" class="container mt-10 flex-col items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+            <h2 class="title">自己(経歴)紹介</h2>
+        </section>
+
+        <section class="mt-10">
+            <p>このページでは軽く自己紹介などをしていきたいと思います。</p>
+            <p class="mt-5">そもそもこのサイトを作ったきっかけはAWSの勉強のためで、インフラエンジニアを目指しています。
+                小さい頃からゲーム機などを分解して仕組みを調べるのが好きだったこともあり、大学でTCP/IPや暗号理論に触れた際、その仕組みの面白さに惹かれてインフラエンジニアを目指すことにしました。
+            </p>
+            <p class="mt-5">
+                ...と、いうのは就活の時によく話していたエピソードなのですが、実はコードを書くのが嫌というのも半分くらいあります（笑）。
+                ネットワークやサーバ構築ならあまりコードを書かなくても良さそうだなと思い、ネットワークセキュリティ系の研究室に進みましたが、結局コーディングからは逃れられませんでした。
+                このような邪な気持ちでインフラを志した私ですが、現在は楽しくAWSについて学べています。
+            </p>
+            <p class="mt-5">
+                最後に、宅内ネットワーク設備と、趣味のオーディオ機器について紹介して終わろうと思います。
+            </p>
+            <img src="./gadgets.jpeg" alt="image" class="mt-5 rounded-md">
+            <p class="mt-5">
+                画像左奥にあるのがNECのIX2215です。NAS、無線AP、デスクトップPCを接続し、静的NATを組んでいます。
+                現状、ただの高級なスイッチングハブになってしまっています...。さらに、2台あるにも関わらず片方は置物と化しています。
+                いつか実家とVPNを繋ぎたいと思い買ったのですが、なかなか踏み切れていません。
+            </p>
+
+            <p class="mt-5">
+                NASはラズパイと外付けHDDで組むお手軽なものを使っていますが、そのうちRAIDも組めるしっかりしたものにリプレースしたいと考えています。
+            </p>
+
+            <p class="mt-5">
+                手前のオーディオインターフェースはMOTU M2というもので、コンデンサマイク入力を備えながらもDACとプリアンプが優秀で、音楽を聞く際もとても良い音が出るので気に入っています。
+            </p>
+            
+        </section>
+    </div>
+
+    <footer class="py-20">
+        <div class="container mx-auto flex items-start px-2 md:px-14 lg:px-24 w-full cursor-pointer">
+            <a href="./index.html" class="text-lg">Top Page</a>
+        </div>
+    </footer>
+
+</body>
+</html>
