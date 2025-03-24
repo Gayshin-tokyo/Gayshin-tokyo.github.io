@@ -784,6 +784,24 @@ video {
   animation-fill-mode: forwards;
 }
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.demo-div.view div:nth-child(14) {
+  animation: fade 1s ease-in-out;
+  animation-duration: .4s;
+  animation-delay: .8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 .absolute {
   position: absolute;
 }
